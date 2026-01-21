@@ -1,0 +1,51 @@
+name: Deploy to itch.io and GameJolt
+
+on:
+  push:
+    tags:
+      - 'v[0-9]+.[0-9]+.[0-9]+'
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    concurrency:
+      group: ${{ github.workflow }}-${{ github.ref }}
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v3
+      - name: Put semver in a variable
+        run: |
+          VERSION=${GITHUB_REF_NAME#v}
+          echo "Version: $VERSION"
+          echo "VERSION=$VERSION" >> $GITHUB_ENV
+      - name: Zip the release
+        run: |
+          zip -r "ChickenEvaders_v${VERSION}.zip" . -x ".*"
+      - name: Setup butler
+        run: |
+          curl -L -o butler.zip https://broth.itch.zone/butler/linux-amd64/LATEST/archive/default
+          unzip butler.zip
+          chmod +x butler
+          ./butler -V
+      - name: Setup gjpush
+        run: |
+          curl -L -o gjpush.zip https://github.com/gamejolt/cli/releases/download/v0.5.0/linux.zip
+          unzip gjpush.zip
+          chmod +x gjpush
+          ./gjpush -v
+      - name: Deploy to itch.io
+        if: false
+        env:
+          BUTLER_API_KEY: ${{ secrets.BUTLER_API_KEY }}
+        run: ./butler push ./dist "${{ vars.ITCH_USERNAME }}/${{ vars.ITCH_GAME_ID }}:html"
+      - name: Deploy to GameJolt
+        run: ./gjpush -t '${{ secrets.GAMEJOLT_SERVICE_API_TOKEN }}' -g ${{ vars.GJ_GAME_ID }} -p ${{ vars.GJ_PACKAGE_ID }} -r ${VERSION} ./ChickenEvaders_v${VERSION}.zip
+      - name: Create a release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: |
+            ChickenEvaders_v${VERSION}.zip
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
