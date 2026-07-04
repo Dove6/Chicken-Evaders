@@ -1,0 +1,2 @@
+Chyba coœ z³apa³o... No to-to trzeba teraz ci¹gn¹æ, tylko ostro¿nie!|7000|NULL|NULL|NULL|NULL|NULL
+Zielony suwak wskazuje bie¿¹c¹ si³ê naci¹gu, a czerwona kropka oczekiwan¹. Jeœli potrzeba ci¹gn¹æ bardziej, przytrzymuj spacjê, w przeciwnym razie naci¹g powoli siê zmniejsza.|14000|START_MINIGAME|NULL|NULL|NULL|NULL
