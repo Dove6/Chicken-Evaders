@@ -1,2 +1,3 @@
-Chyba coœ z³apa³o... No to-to trzeba teraz ci¹gn¹æ, tylko ostro¿nie!|7000|NULL|NULL|NULL|NULL|NULL
-Zielony suwak wskazuje bie¿¹c¹ si³ê naci¹gu, a czerwona kropka oczekiwan¹. Jeœli potrzeba ci¹gn¹æ bardziej, przytrzymuj spacjê, w przeciwnym razie naci¹g powoli siê zmniejsza.|14000|START_MINIGAME|NULL|NULL|NULL|NULL
+Chyba coœ z³apa³o... No to-to teraz tylko ci¹gn¹æ, byle ostro¿nie!|7000|NULL|NULL|NULL|NULL|NULL
+Muszê sprawnie manewrowaæ tym ko-ko-ko³owrotkiem tak, by utrzymaæ si³ê naci¹gu na w³aœciwym poziomie.|7000|NULL|NULL|NULL|NULL|NULL
+By³oby to dosyæ proste, g-gdyby ten poziom nie zmienia³ siê w czasie. Ech, te pr¹dy... Pewnie to wina wêgorzy elek-ktrycznych.|10000|START_MINIGAME|NULL|NULL|NULL|NULL
