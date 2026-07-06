@@ -36,11 +36,11 @@ jobs:
           chmod +x gjpush
           ./gjpush -v
       - name: Deploy to itch.io
-        if: false
         env:
           BUTLER_API_KEY: ${{ secrets.BUTLER_API_KEY }}
         run: ./butler push ./dist "${{ vars.ITCH_USERNAME }}/${{ vars.ITCH_GAME_ID }}:html"
       - name: Deploy to GameJolt
+        if: false
         run: ./gjpush -t '${{ secrets.GAMEJOLT_SERVICE_API_TOKEN }}' -g ${{ vars.GJ_GAME_ID }} -p ${{ vars.GJ_PACKAGE_ID }} -r ${VERSION} ./ChickenEvaders_v${VERSION}.zip
       - name: Create a release
         uses: softprops/action-gh-release@v2
