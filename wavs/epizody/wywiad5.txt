@@ -1,0 +1,5 @@
+No dobrze, ale najpierw, ko-ko, parê pytañ...<br>Czego u¿y³em jako podstawy budowli?<br>a) Drewnianej balii!<br>b) Opony z drabin¹!|0|NULL|NULL|USE_BALIA|USE_OPONA|NULL
+A co stanowi³o ko-ko-korpus gwiezdnego kuriera?<br>a) Beczka.<br>b) Piecyk.|0|NULL|USE_BECZKA|USE_PIECYK|NULL|NULL
+W roli przewodu u¿y³em natomiast...<br>a) rury spustowej!<br>b) wê¿a ogrodowego!<br>c) rury od odkurzacza!|0|NULL|USE_SPUSTOWA|USE_WAZ|USE_ODKURA|NULL
+A do podtrzymania papieru zastosowa³em...<br>a) pulpit.<br>b) grabie.|0|NULL|USE_PULPIT|USE_GRABIE|NULL|NULL
+Œwietnie! Biorê siê do dalszej pracy...|5000|GOTO_EPISODE|NULL|NULL|NULL|NULL
