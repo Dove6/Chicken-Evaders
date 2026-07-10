@@ -39,7 +39,6 @@ items = [ #          index
     ('DRABINA',      0,    1),
     ('GRABIE',       0,    0),
     ('LEJEK',        0,    0),
-    ('KATOMIERZ',    0,    0),
     ('KOLOWROTEK',   0,    3),
     ('KONEWKA',      0, None),
     ('KOTWICA',      0, None),
