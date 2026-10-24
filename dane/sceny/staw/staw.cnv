@@ -56,4 +56,5 @@ __INIT__:CODE={ /
     @IF(CONSTRUCTION_PHASE^GET(), "_", 6, "{WEDKA^SETASBUTTON(TRUE, TRUE);}", ""); /
     @IF(CONSTRUCTION_PHASE^GET(), ">", 6, "{WEDKA^HIDE();}", ""); /
     BEHINITSCENE^RUN("STAW"); /
+    ESC_HINT^SHOW(); /
 }
