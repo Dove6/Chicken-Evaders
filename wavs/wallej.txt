@@ -1,3 +1,3 @@
 Chyba coœ z³apa³o... No to-to teraz tylko ci¹gn¹æ, byle ostro¿nie!|7000|NULL|NULL|NULL|NULL|NULL
-Muszê sprawnie manewrowaæ tym ko-ko-ko³owrotkiem tak, by utrzymaæ si³ê naci¹gu na w³aœciwym poziomie.|7000|NULL|NULL|NULL|NULL|NULL
-By³oby to dosyæ proste, g-gdyby ten poziom nie zmienia³ siê w czasie. Ech, te pr¹dy... Pewnie to wina wêgorzy elek-ktrycznych.|10000|START_MINIGAME|NULL|NULL|NULL|NULL
+Muszê sprawnie manewrowaæ tym ko-ko-ko³owrotkiem tak, by utrzymaæ si³ê naci¹gu na w³aœciwym poziomie.|10000|NULL|NULL|NULL|NULL|NULL
+By³oby to dosyæ proste, g-gdyby ten poziom nie zmienia³ siê w czasie. Ech, te pr¹dy... Pewnie to wina wêgorzy elek-ktrycznych.|12000|START_MINIGAME|NULL|NULL|NULL|NULL

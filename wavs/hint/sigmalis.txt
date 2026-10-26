@@ -1,0 +1,5 @@
+Przyciski strza³ek s³u¿¹ do przelewania wody pomiêdzy butelkami. Dolne liczniki pokazuj¹ pojemnoœæ butelek, a górne obecne ich zape³nienie.|12000|NULL|NULL|NULL|NULL|NULL
+Naciœniêcie strza³ki powoduje dope³nienie butelki docelowej zawartoœci¹ butelki Ÿród³owej.|9000|NULL|NULL|NULL|NULL|NULL
+Butelka docelowa nie mo¿e siê przepe³niæ. Reszta wody zostaje w butelce Ÿród³owej.|8000|NULL|NULL|NULL|NULL|NULL
+I w drug¹ stronê, z pustego Salomon nie naleje - jeœli wody w butelce Ÿród³owej jest niedu¿o, butelka docelowa nie zape³ni siê ca³kowicie.|12000|NULL|NULL|NULL|NULL|NULL
+Moim celem jest opró¿nienie trzeciej butelki. Pozosta³e butelki powinny mieæ w sobie tyle samo wody.|10000|NULL|NULL|NULL|NULL|NULL

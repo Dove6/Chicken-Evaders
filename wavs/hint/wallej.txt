@@ -1,0 +1,5 @@
+Jestem w stanie sterowaæ jedynie ko³owrotkiem. Jeœli go przytrzymam, naci¹g zwiêkszy siê. Gdy puszczê, naci¹g zmaleje.|11000|NULL|NULL|NULL|NULL|NULL
+Si³ê naci¹gu pokazuje ruchomy pasek. Im wy¿ej, tym jest wiêksza. Lejek jednak ca³y czas ucieka i muszê dopasowywaæ si³ê do sytuacji.|12000|NULL|NULL|NULL|NULL|NULL
+Si³a jest na w³aœciwym poziomie, jeœli ikona lejka œwieci siê. W tle widaæ wtedy, jak stopniowo wyci¹gam lejek ku powierzchni.|12000|NULL|NULL|NULL|NULL|NULL
+Gdy ikona gaœnie, lejek zaczyna siê z powrotem zanurzaæ.|6000|NULL|NULL|NULL|NULL|NULL
+Moim celem jest ca³kowite wyci¹gniêcie lejka z wody.|5000|NULL|NULL|NULL|NULL|NULL
