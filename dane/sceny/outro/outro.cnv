@@ -12,6 +12,7 @@ __INIT__:CODE={ /
     KLAWISZE^ADD("Q"); /
     UPDATE_KLAWISZE^RUN(); /
     @IF(EPISODES_UNLOCKED, "<", 6, "{EPISODES_UNLOCKED^SET(6);}", ""); /
+    BLOCK_TEXT_PROCEED^SET(TRUE); /
     SAY^RUN("OUTRO"); /
 }
 
