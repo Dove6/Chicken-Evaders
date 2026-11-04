@@ -15,6 +15,7 @@
 listing.json
 
 # Graphics and audio in non-Piklib formats
+*.jpg
 *.png
 *.xcf
 *.mp4
