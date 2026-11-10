@@ -18,6 +18,7 @@ listing.json
 *.jpg
 *.png
 *.xcf
+*.mlt
 *.mp4
 *.mp3
 
